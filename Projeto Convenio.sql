@@ -1,0 +1,6 @@
+USE [Projeto]
+ALTER TABLE [dbo].[Convenio] REBUILD PARTITION = ALL
+WITH
+(DATA_COMPRESSION = NONE
+)
+
